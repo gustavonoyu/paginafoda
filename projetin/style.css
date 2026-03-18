@@ -1,0 +1,139 @@
+/* pagina inicial*/
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    margin-top: 4%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 50px;
+    z-index: 2;
+}
+.textoDistros{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: large;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px;
+}
+.lista{
+    position: absolute;
+    margin-top: 10%;
+    list-style: none;
+    z-index: 1;
+}
+/* botões de link inicio */
+.link1 {
+    display: flex;         
+    flex-direction: row;   
+    gap: 10px;             
+    list-style: none;      
+    padding: 0;            
+    margin: 0;
+    position:absolute;
+    margin-top: 7%;
+    justify-self: center;
+    z-index: 1;
+}
+
+.link1 li {
+    display: block;        
+}
+
+.link1 a {
+    display: inline-block; 
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 15px;
+    text-decoration: none;
+    white-space: nowrap;   
+}
+.link1 a:hover{
+    background-color: rgb(122, 122, 123);
+}
+/* link dos canais */
+.link2 {
+    display: flex;            
+    gap: 10px;             
+    list-style: none;      
+    padding: 10;            
+    margin: 0;
+    position:absolute;
+    margin-top: 7%;
+    justify-self: center;
+    z-index: 1;
+}
+
+.link2 li {
+    display: block;        
+}
+
+.link2 a { 
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 15px;
+    text-decoration: none;
+    white-space: nowrap;   
+}
+.link2 a:hover{
+    background-color: rgb(122, 122, 123);
+    color: rgb(255, 3, 3);
+}
+ /* botão de voltar*/
+.voltar{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+}
+.voltar a{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10%;
+    gap: 5px;
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+    position:absolute;
+    margin-left: 1px;
+    z-index: 1;
+}
+.voltar a:hover{
+    background-color: rgb(122, 122, 123);
+}
+/* iniciante */
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    position:absolute;
+    margin-top: 5%; 
+    margin-left: 15px;
+}
+/*direitos reservados */
+.direse{
+    display: flex;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    justify-content: center;
+    width: 100vw;
+    padding: 10px;
+    height: fit-content;
+    font-size: 25px;
+}
+.fundo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
