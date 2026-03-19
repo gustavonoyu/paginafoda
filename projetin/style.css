@@ -35,7 +35,8 @@ h1{
     margin: 0;
     position:absolute;
     margin-top: 7%;
-    justify-self: center;
+    left: 50%;
+    transform: translate(-50%);
     z-index: 1;
 }
 
@@ -63,8 +64,9 @@ h1{
     padding: 10;            
     margin: 0;
     position:absolute;
-    margin-top: 7%;
-    justify-self: center;
+    margin-top: 10%;
+    left: 50%;
+    transform: translate(-50%);
     z-index: 1;
 }
 
@@ -111,9 +113,11 @@ h1{
 h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
+    color: white;
     position:absolute;
     margin-top: 5%; 
     margin-left: 15px;
+    z-index: 1;
 }
 /*direitos reservados */
 .direse{
